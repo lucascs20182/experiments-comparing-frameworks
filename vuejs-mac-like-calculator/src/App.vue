@@ -36,7 +36,10 @@
         text-align: center;
 
         color: #fff;
-        background: linear-gradient(to right,
-            rgb(83, 105, 118), rgb(41, 46, 73));
+        /* background: linear-gradient(to right,
+            rgb(83, 105, 118), rgb(41, 46, 73)); */
+
+        background-image: url('./assets/Screenshot_2020-09-08_11-04-08.png');
+        background-size: 100% 100%;
     }
 </style>
