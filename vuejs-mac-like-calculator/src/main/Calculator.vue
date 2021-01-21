@@ -81,12 +81,7 @@
 
                 this.displayValue = displayValue
                 this.clearDisplay = false
-
-                if(n !== '.') {
-                    const i = this.current
-                    const newValue = parseFloat(displayValue)
-                    this.values[i] = newValue
-                }
+                this.values[this.current] = displayValue
             }
         }
     }
