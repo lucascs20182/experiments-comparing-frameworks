@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #fff;
+  background-image: url('./assets/Screenshot_2020-09-08_11-04-08.png');
+  background-size: 100% 100%;
+}
